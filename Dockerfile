@@ -16,4 +16,4 @@ EXPOSE 5050
 
 VOLUME ["/root/.local/share/local-audio-yomichan"]
 
-CMD ["python", "./run_server.py"]
+CMD ["python", "-u", "./run_server.py"]
